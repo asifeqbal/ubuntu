@@ -17,3 +17,5 @@ git add .
 git commit -m ‘your_message’
 
 git push origin master
+
+keytool -genkey -v -keystore trackandeat.keystore -alias com.trackandeat.app -keyalg RSA -keysize 2048 -validity 10000
